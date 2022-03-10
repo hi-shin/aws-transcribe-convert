@@ -1,0 +1,25 @@
+{
+  "name": "popsub",
+  "version": "1.0.0",
+  "description": "``` git clone https://github.com/hi-shin/popsub.git ``` or Download zip from Code menu and unzip it.",
+  "main": "src/convert.js",
+  "scripts": {
+    "build": "npm i",
+    "start": "npx tsc && node src/convert",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-shin/popsub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hi-shin/popsub/issues"
+  },
+  "homepage": "https://github.com/hi-shin/popsub#readme",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
